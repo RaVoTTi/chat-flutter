@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primaryColor: Colors.orange[600]),
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      initialRoute: 'login',
+      initialRoute: 'users',
       routes: appRoutes,
     );
   }
